@@ -1,0 +1,25 @@
+{
+  "name": "vitepress-theme-simple",
+  "version": "0.0.1",
+  "description": "VitePress theme for blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress",
+    "build": "vitepress build && node ./.vitepress/genFeed",
+    "serve": "vitepress serve --port 8099"
+  },
+  "keywords": [
+    "vitepress",
+    "theme",
+    "blog"
+  ],
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "feed": "^4.2.2",
+    "gray-matter": "^4.0.3",
+    "tailwindcss": "^3.0.24",
+    "vitepress": "^0.22.3"
+  }
+}
