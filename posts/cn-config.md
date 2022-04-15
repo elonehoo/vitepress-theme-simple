@@ -149,7 +149,7 @@ projects:
 
 要是需要修改类似作者和时间的样式可以直接修改 `.vitepress/theme/Author.vue` 和 `.vitepress/theme/Date.vue`。
 
-### 添加博客
+#### 添加博客
 
 在 `posts` 目录下增加一个 `md` 文件，切记命名不可以是中文。
 

@@ -1,5 +1,5 @@
 ---
-title: custom configuration
+title: Custom Configuration
 date: 2022-04-15
 author: Simple Blog
 twitter: '@huchengye'
@@ -149,7 +149,7 @@ If you have this requirement, you can directly modify the `.vitepress/theme/Arti
 
 If you need to modify the styles like author and time, you can directly modify `.vitepress/theme/Author.vue` and `.vitepress/theme/Date.vue`.
 
-### Add blog
+#### Add blog
 
 Add a `md` file in the `posts` directory, remember that the name cannot be Chinese.
 
