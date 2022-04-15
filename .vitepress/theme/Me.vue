@@ -8,7 +8,7 @@
       <a :href="$frontmatter.githubLink" target="_blank">GitHub</a>.
     </p>
     <p>
-        If you happen to speak Chinese, my Chinese name is {{$frontmatter.chineseName}} ({{$frontmatter.chinesePinyin}}).
+        If you happen to speak {{$frontmatter.speakLanguage}}, my {{$frontmatter.speakLanguage}} name is {{$frontmatter.chineseName}} ({{$frontmatter.chinesePinyin}}).
     </p>
     <p>
         Outside of programming and finish school and get a job, I enjoy video games.
