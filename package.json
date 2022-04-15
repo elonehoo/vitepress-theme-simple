@@ -16,11 +16,13 @@
   ],
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies":{
     "@tailwindcss/typography": "^0.5.2",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
-    "tailwindcss": "^3.0.24",
     "vitepress": "^0.22.3"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
   }
 }
