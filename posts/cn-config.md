@@ -29,7 +29,7 @@ twitter: '@huchengye'
 
 - [GitHub](https://github.com/elonehoo/vitepress-theme-simple)
 
-## 安装
+## 下载项目 & 安装依赖
 
 ```bash
 # 安装
@@ -41,3 +41,4 @@ cd vitepress-theme-simple
 # 安装依赖
 pnpm install
 ```
+
