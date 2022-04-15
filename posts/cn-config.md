@@ -177,3 +177,11 @@ content
 内容便会渲染成为
 
 ![set2.png](../public/cn-config/set2.png)
+
+### 细节
+
+相信你也发现了，这样子还有一点细节的地方并没有改变。那么这里将会带着你来改变这些地方。
+
+首先，让我们打开 `.vitepress/theme/Layout.vue` 在第 12 行和第 5 行我们将`Simple Blog`该成你需要的名字。
+
+如果还有地方没有修改到，可以提出 `issue` 。
