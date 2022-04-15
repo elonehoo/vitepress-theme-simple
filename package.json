@@ -2,6 +2,7 @@
   "name": "vitepress-theme-simple",
   "version": "0.0.1",
   "description": "VitePress theme for blog",
+  "packageManager": "pnpm@6.32.6",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress",
