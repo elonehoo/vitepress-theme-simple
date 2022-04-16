@@ -185,3 +185,7 @@ content
 首先，让我们打开 `.vitepress/theme/Layout.vue` 在第 12 行和第 5 行我们将`Simple Blog`该成你需要的名字。
 
 如果还有地方没有修改到，可以提出 `issue` 。
+
+## 部署
+
+在GitHub上部署，在这个项目已经成为了各位完全不用考虑的事情, 在 `.github/workflows/build.yml` 中修改一行代码，在第 30 行 将 `simple.elonehoo.xyz` 改成你的域名就可以了。

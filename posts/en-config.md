@@ -182,6 +182,10 @@ The content is rendered as
 
 I believe you have also discovered that there are still a few details in this way that have not changed. Then here will take you to change these places.
 
-First, let's open `.vitepress/theme/Layout.vue` On lines 12 and 5 we make `Simple Blog` the name you want.
+First, let`s open `.vitepress/theme/Layout.vue` On lines 12 and 5 we make `Simple Blog` the name you want.
 
 If there are still places that have not been modified, you can file an `issue`.
+
+## deploy
+
+Deploy on GitHub, this project has become something you don't have to consider at all, modify a line of code in `.github/workflows/build.yml`, and change `simple.elonehoo.xyz` to your domain name on line 30 That's it.
