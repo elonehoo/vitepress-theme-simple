@@ -24,9 +24,9 @@
 
 ## 文档 和 预览
 
-![官方文档](https://simple.elonehoo.xyz/)
+[官方文档](https://simple.elonehoo.xyz/)
 
-![个人预览](https://elonehoo.xyz/)
+[个人预览](https://elonehoo.xyz/)
 
 ## 下载项目
 

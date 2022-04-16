@@ -24,9 +24,9 @@ This is a Vitepress-based theme, which is a simple blog theme that can be quickl
 
 ## Documentation and preview
 
-![Official Documentation](https://simple.elonehoo.xyz/)
+[Official Documentation](https://simple.elonehoo.xyz/)
 
-![Personal preview](https://elonehoo.xyz/)
+[Personal preview](https://elonehoo.xyz/)
 
 ## Download project
 
