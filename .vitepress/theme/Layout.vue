@@ -50,8 +50,6 @@ import Home from './Home.vue'
 import Projects from "./Projects.vue"
 import Article from './Article.vue'
 
-console.log(Layout)
-
 const route = useRoute()
 const isIndex = computed(() =>
   route.path.replace(/index.html$/, '')==='/' ? 'me' :

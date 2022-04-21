@@ -1,7 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@iconify/json': ^2.1.30
   '@tailwindcss/typography': ^0.5.2
+  '@vueuse/core': ^8.3.0
   feed: ^4.2.2
   gray-matter: ^4.0.3
   tailwindcss: ^3.0.24
@@ -11,7 +13,9 @@ dependencies:
   tailwindcss: 3.0.24
 
 devDependencies:
+  '@iconify/json': 2.1.30
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.24
+  '@vueuse/core': 8.3.0
   feed: 4.2.2
   gray-matter: 4.0.3
   vitepress: 0.22.3
@@ -165,6 +169,17 @@ packages:
       - '@algolia/client-search'
     dev: true
 
+  /@iconify/json/2.1.30:
+    resolution: {integrity: sha512-mxaB9gr4sSAKUq6GJdXV42YC7tkJ9WOZW6/8zGXciiA1cjLLyHe73GJl6qpnc53G8SDSSXWClQC5RHWNz/HIBQ==}
+    dependencies:
+      '@iconify/types': 1.1.0
+      pathe: 0.2.0
+    dev: true
+
+  /@iconify/types/1.1.0:
+    resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==}
+    dev: true
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -289,6 +304,40 @@ packages:
 
   /@vue/shared/3.2.33:
     resolution: {integrity: sha512-UBc1Pg1T3yZ97vsA2ueER0F6GbJebLHYlEi4ou1H5YL4KWvMOOWwpYo9/QpWq93wxKG6Wo13IY74Hcn/f7c7Bg==}
+    dev: true
+
+  /@vueuse/core/8.3.0:
+    resolution: {integrity: sha512-GDHM0vr/E3mw1fbh3yj4DJCJ/KvTXtOtT0OR2kCKuEUOo0Btk45MDGI6MdIqsHMjI0OXBJl8jH8WFv64KU2mOQ==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      '@vueuse/metadata': 8.3.0
+      '@vueuse/shared': 8.3.0
+      vue-demi: 0.12.5
+    dev: true
+
+  /@vueuse/metadata/8.3.0:
+    resolution: {integrity: sha512-7R/LNPQWp1r/owa2e71l3dFlJ21p89YE3ks14ZclP2VOTvhC6AzDRcpk+ChISNetv8spsFbWZj/Z7sFjbFZfuw==}
+    dev: true
+
+  /@vueuse/shared/8.3.0:
+    resolution: {integrity: sha512-xehtLfevPw9nsVIGFe/tWMtFvbvZjeAfXh7DT9Fptt/6/C5rLwpJtxsVguIBtPybjwobO4KCpQYS78aa9fg5Sw==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      vue-demi: 0.12.5
     dev: true
 
   /acorn-node/1.8.2:
@@ -816,6 +865,10 @@ packages:
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
 
+  /pathe/0.2.0:
+    resolution: {integrity: sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==}
+    dev: true
+
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
 
@@ -1055,6 +1108,19 @@ packages:
       - react-dom
       - sass
       - stylus
+    dev: true
+
+  /vue-demi/0.12.5:
+    resolution: {integrity: sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
     dev: true
 
   /vue/3.2.33:
