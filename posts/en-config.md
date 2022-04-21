@@ -180,11 +180,9 @@ The content is rendered as
 
 ### detail
 
-I believe you have also discovered that there are still a few details in this way that have not changed. Then here will take you to change these places.
+Now only need to modify the content of `config.json` to complete some details.
 
-First, let`s open `.vitepress/theme/Layout.vue` On lines 12 and 5 we make `Simple Blog` the name you want.
-
-If there are still places that have not been modified, you can file an `issue`.
+If there are other details that have not been modified, you can file [`issue`](https://github.com/elonehoo/vitepress-theme-simple/issues)
 
 ## deploy
 
