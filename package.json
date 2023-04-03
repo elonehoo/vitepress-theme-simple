@@ -2,7 +2,7 @@
   "name": "vitepress-theme-simple",
   "version": "0.0.1",
   "description": "VitePress theme for blog",
-  "packageManager": "pnpm@6.32.6",
+  "packageManager": "pnpm@6.35.1",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress",
@@ -17,14 +17,14 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "devDependencies": {
-    "@iconify/json": "^2.1.30",
-    "@tailwindcss/typography": "^0.5.2",
-    "@vueuse/core": "^8.3.0",
+    "@iconify/json": "^2.2.44",
+    "@tailwindcss/typography": "^0.5.9",
+    "@vueuse/core": "^8.9.4",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
-    "vitepress": "^0.22.3"
+    "vitepress": "^0.22.4"
   },
   "dependencies": {
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.3.1"
   }
 }
