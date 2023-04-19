@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>自定义配置 | Simple</title>
+    <meta name="description" content="vitepress theme simple">
+    <link rel="stylesheet" href="/assets/style.de780e25.css">
+    <link rel="modulepreload" href="/assets/app.72147d28.js">
+    <link rel="modulepreload" href="/assets/posts_cn-config.md.06d7c154.lean.js">
+    
+    <link rel="icon" type="image/x-icon" href="/logo.svg">
+  <meta name="twitter:title" content="自定义配置 | Simple">
+  <meta property="og:title" content="自定义配置 | Simple">
+  </head>
+  <body>
+    <div id="app"><div class="antialiased"><div class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0"><nav class="flex justify-between items-center py-10 font-bold"><a class="text-xl" href="/" aria-label="The Simple Blog Blog"><img class="inline-block mr-2" style="width:36px;height:31px;" alt="logo" src="/assets/logo.e3ccbb31.svg"><span class="hidden md:inline">Simple Blog</span></a><div class="text-sm text-gray-500 leading-5"><a class="hover:text-gray-700" href="/">me </a><span class="mr-2 ml-2">·</span><a class="hover:text-gray-700" href="/blog.html">blog</a><span class="mr-2 ml-2">·</span><a class="hover:text-gray-700" href="/projects.html">projects </a><span class="mr-2 ml-2">·</span><a class="hover:text-gray-700" href="https://github.com/elonehoo" target="_blank" rel="noopener">GitHub →</a></div></nav></div><main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0"><article class="xl:divide-y xl:divide-gray-200"><header class="pt-6 xl:pb-10 space-y-1 text-center"><dl><dt class="sr-only">Published on</dt><dd class="text-base leading-6 font-medium text-gray-500"><time datetime="2022-04-15T12:00:00.000Z">April 15, 2022</time></dd></dl><h1 class="text-3xl leading-9 font-extrabold text-gray-900 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">自定义配置</h1></header><div class="divide-y xl:divide-y-0 divide-gray-200 xl:grid xl:grid-cols-4 xl:gap-x-10 pb-16 xl:pb-20" style="grid-template-rows:auto 1fr;"><dl class="pt-6 pb-10 xl:pt-11 xl:border-b xl:border-gray-200"><dt class="sr-only">Authors</dt><dd><ul class="flex justify-center xl:block space-x-8 sm:space-x-12 xl:space-x-0 xl:space-y-8"><li class="flex items-center space-x-2"><img src="/assets/logo.e3ccbb31.svg" alt="author image" class="w-10 h-10 rounded-full"><dl class="text-sm font-medium leading-5 whitespace-nowrap"><dt class="sr-only">Name</dt><dd class="text-gray-900">Simple Blog</dd><dt class="sr-only">Twitter</dt><dd><a href="https://twitter.com/@huchengye" target="_blank" rel="noopnener noreferrer" class="link">@huchengye</a></dd></dl></li></ul></dd></dl><div class="divide-y divide-gray-200 xl:pb-0 xl:col-span-3 xl:row-span-2"><div style="position:relative;" class="prose max-w-none pt-10 pb-8"><div><p>基于 <a href="https://vitepress.docschina.org/" target="_blank" rel="noopener noreferrer">Vitepress</a> 的简单主题博客模板。</p><p>使用了最简单的主题样式，完成功能较为齐全的博客模板，</p><ul><li>拥有自定义的 About 页面</li><li>拥有简单的 Blog 页面</li><li>拥有简单的 Project 页面</li></ul><hr><h2 id="介绍" tabindex="-1">介绍 <a class="header-anchor" href="#介绍" aria-hidden="true">#</a></h2><p>使用 <a href="https://vitepress.docschina.org/" target="_blank" rel="noopener noreferrer">Vitepress</a> 的简单主题博客模板。</p><h2 id="实例" tabindex="-1">实例 <a class="header-anchor" href="#实例" aria-hidden="true">#</a></h2><p><a href="https://elonehoo.xyz" target="_blank" rel="noopener noreferrer">个人实例</a></p><p>你现在所看到的就是这个博客的样子。如果你喜欢可以继续阅读该文档。将这个主题配置成为你的博客。</p><h2 id="源码" tabindex="-1">源码 <a class="header-anchor" href="#源码" aria-hidden="true">#</a></h2><ul><li><a href="https://github.com/elonehoo/vitepress-theme-simple" target="_blank" rel="noopener noreferrer">GitHub</a></li></ul><h2 id="下载项目-安装依赖" tabindex="-1">下载项目 &amp; 安装依赖 <a class="header-anchor" href="#下载项目-安装依赖" aria-hidden="true">#</a></h2><div class="language-bash"><pre><code><span class="token comment"># 安装</span>
+<span class="token function">git</span> clone git@github.com:elonehoo/vitepress-theme-simple.git
+
+<span class="token comment"># 进入项目目录</span>
+<span class="token builtin class-name">cd</span> vitepress-theme-simple
+
+<span class="token comment"># 安装依赖</span>
+<span class="token function">pnpm</span> <span class="token function">install</span>
+</code></pre></div><h2 id="修改配置" tabindex="-1">修改配置 <a class="header-anchor" href="#修改配置" aria-hidden="true">#</a></h2><h3 id="修改config-ts" tabindex="-1">修改<code>config.ts</code> <a class="header-anchor" href="#修改config-ts" aria-hidden="true">#</a></h3><div class="language-ts"><pre><code><span class="token keyword">import</span> <span class="token punctuation">{</span> defineConfig <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&#39;vitepress&#39;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  base<span class="token operator">:</span><span class="token string">&#39;/&#39;</span><span class="token punctuation">,</span>
+  title<span class="token operator">:</span> <span class="token string">&#39;Simple&#39;</span><span class="token punctuation">,</span>
+  description<span class="token operator">:</span> <span class="token string">&quot;vitepress theme simple&quot;</span><span class="token punctuation">,</span>
+  head<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span>
+      <span class="token string">&#39;link&#39;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        rel<span class="token operator">:</span> <span class="token string">&#39;icon&#39;</span><span class="token punctuation">,</span>
+        type<span class="token operator">:</span> <span class="token string">&#39;image/x-icon&#39;</span><span class="token punctuation">,</span>
+        href<span class="token operator">:</span> <span class="token string">&#39;/logo.svg&#39;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  vite<span class="token operator">:</span> <span class="token punctuation">{</span>
+    build<span class="token operator">:</span> <span class="token punctuation">{</span>
+      minify<span class="token operator">:</span> <span class="token string">&#39;terser&#39;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h4 id="base" tabindex="-1">base <a class="header-anchor" href="#base" aria-hidden="true">#</a></h4><p>如果你需要将这个项目放到 <code>username.github.io</code> 这个仓库下，则不需要更改。</p><p>如果需要将这个项目放到另外的仓库，则需要将 <code>base</code> 选项修改成仓库的名称即可。</p><h4 id="title" tabindex="-1">title <a class="header-anchor" href="#title" aria-hidden="true">#</a></h4><p>网站的标题。所有页面的标题都会有这个后缀。</p><h4 id="description" tabindex="-1">description <a class="header-anchor" href="#description" aria-hidden="true">#</a></h4><p>站点的描述。这将在 HTML 页面中呈现为 <meta> 标记。</p><h3 id="修改logo" tabindex="-1">修改logo <a class="header-anchor" href="#修改logo" aria-hidden="true">#</a></h3><p>Lgoo 尽量选择使用SVG作为 Logo 的文件类型，<code>logo.svg</code> 存放在 public 文件下，修改这个文件就可以修改该博客的图标。</p><h3 id="修改-about-页面" tabindex="-1">修改 About 页面 <a class="header-anchor" href="#修改-about-页面" aria-hidden="true">#</a></h3><div class="language-markdown"><pre><code><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token front-matter yaml language-yaml">englishName: your english name
+organizeLink: your github organize link
+organizeName: your github organize name
+githubLink: your github link
+speakLanguage: your speak language
+languageName: your language name
+languagePronunciation: you language name pronunciation
+title: About</span>
+<span class="token punctuation">---</span></span>
+</code></pre></div><p>如果有更好的设计或者更好的模板供你选择，可以直接修改 <code>.vitepress/theme/Me.vue</code> 文件的代码。</p><h3 id="修改-projects-页面" tabindex="-1">修改 Projects 页面 <a class="header-anchor" href="#修改-projects-页面" aria-hidden="true">#</a></h3><p>这个是我比较满意的页面之一，所以提前说明，如果有更好的想法，可以直接修改 <code>.vitepress/theme/Projects.vue</code> 文件的代码。</p><h4 id="添加项目" tabindex="-1">添加项目 <a class="header-anchor" href="#添加项目" aria-hidden="true">#</a></h4><p>可以在 <code>projects.md</code> 中添加属于你的项目，例如</p><div class="language-markdown"><pre><code>projects:
+  project groups name:
+    <span class="token list punctuation">-</span> name: &#39;your project name&#39;
+      link: &#39;your project link&#39;
+      desc: &#39;your project description&#39;
+      icon: &#39;your project icon&#39;
+</code></pre></div><h4 id="添加项目图标" tabindex="-1">添加项目图标 <a class="header-anchor" href="#添加项目图标" aria-hidden="true">#</a></h4><p>在 <code>.vitepress/theme/icon/</code> 下增加一个图标的 <code>*.vue</code> 文件，实例如下</p><div class="language-vue"><pre><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>svg</span> <span class="token attr-name">t</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>1649992137654<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>icon<span class="token punctuation">&quot;</span></span> <span class="token attr-name">viewBox</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>0 0 1024 1024<span class="token punctuation">&quot;</span></span> <span class="token attr-name">version</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>1.1<span class="token punctuation">&quot;</span></span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://www.w3.org/2000/svg<span class="token punctuation">&quot;</span></span> <span class="token attr-name">p-id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>3794<span class="token punctuation">&quot;</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>48<span class="token punctuation">&quot;</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>48<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>M554.666667 725.333333v-85.333333h-85.333334v85.333333h85.333334zM532.48 366.037333a64 64 0 0 0-83.114667 47.445334l-83.498666-17.578667A149.333333 149.333333 0 1 1 554.666667 569.770667V597.333333h-85.333334v-64a42.666667 42.666667 0 0 1 42.666667-42.666666 64 64 0 0 0 20.48-124.629334z<span class="token punctuation">&quot;</span></span> <span class="token attr-name">p-id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>3795<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>path</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>M682.666667 85.333333l213.333333 213.333334v597.333333a42.666667 42.666667 0 0 1-42.666667 42.666667H170.666667a42.666667 42.666667 0 0 1-42.666667-42.666667V128a42.666667 42.666667 0 0 1 42.666667-42.666667h512zM213.333333 853.333333h597.333334V341.333333h-170.666667V170.666667H213.333333v682.666666z<span class="token punctuation">&quot;</span></span> <span class="token attr-name">p-id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>3796<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>path</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>svg</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>然后在 <code>.vitepress/theme/projects.vue</code> 中增加图标</p><ol><li><p>首先在 <code>&lt;script setup&gt;&lt;/script&gt;</code> 中引入图标 <code>import Simple from &#39;./icon/Simple.vue&#39; </code></p></li><li><p>然后在第37行增加一行代码 <code>&lt;IconName v-else-if=&quot;item.icon === &#39;your project icon&#39;&quot; class=&quot;text-4xl opacity-50&quot; /&gt;</code></p></li></ol><p>即可完成引入新的图标。</p><h3 id="增加博客" tabindex="-1">增加博客 <a class="header-anchor" href="#增加博客" aria-hidden="true">#</a></h3><h4 id="修改博客样式" tabindex="-1">修改博客样式 <a class="header-anchor" href="#修改博客样式" aria-hidden="true">#</a></h4><p>如果你有这个需求，那么可以直接修改 <code>.vitepress/theme/Article.vue</code> 文件修改样式</p><p>要是需要修改类似作者和时间的样式可以直接修改 <code>.vitepress/theme/Author.vue</code> 和 <code>.vitepress/theme/Date.vue</code>。</p><h4 id="添加博客" tabindex="-1">添加博客 <a class="header-anchor" href="#添加博客" aria-hidden="true">#</a></h4><p>在 <code>posts</code> 目录下增加一个 <code>md</code> 文件，切记命名不可以是中文。</p><p>在 <code>md</code> 文件的开头，例如</p><div class="language-markdown"><pre><code><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token front-matter yaml language-yaml">title: this blog title
+date: this blog date
+author: this blog author
+twitter: &#39;this blog author twitter&#39;</span>
+<span class="token punctuation">---</span></span>
+
+this blog description
+
+<span class="token hr punctuation">---</span>
+
+content
+</code></pre></div><p>便会渲染成为</p><p><img src="/assets/set1.03096de6.png" alt=""></p><p>内容便会渲染成为</p><p><img src="/assets/set2.5d8d8298.png" alt=""></p><h3 id="细节" tabindex="-1">细节 <a class="header-anchor" href="#细节" aria-hidden="true">#</a></h3><p>现在只需要修改<code>config.json</code>的内容即可完成某些细节的处理。</p><p>如果有其他的细节没有修改到，可以提出 <a href="https://github.com/elonehoo/vitepress-theme-simple/issues" target="_blank" rel="noopener noreferrer"><code>issue</code></a></p><h2 id="部署" tabindex="-1">部署 <a class="header-anchor" href="#部署" aria-hidden="true">#</a></h2><p>在GitHub上部署，在这个项目已经成为了各位完全不用考虑的事情, 在 <code>.github/workflows/build.yml</code> 中修改一行代码，在第 30 行 将 <code>simple.elonehoo.xyz</code> 改成你的域名就可以了。</p></div></div></div><footer class="text-sm font-medium leading-5 divide-y divide-gray-200 xl:col-start-1 xl:row-start-2"><!----><div class="py-8"><h2 class="text-xs tracking-wide uppercase text-gray-500"> Previous Article </h2><div class="link"><a href="/posts/en-config.html">Custom Configuration</a></div></div><div class="pt-8"><a class="link" href="/blog.html">← Back to the blog</a></div></footer></div></article></main></div></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"blog.md\":\"85f26779\",\"index.md\":\"79346c08\",\"posts_cn-config.md\":\"06d7c154\",\"posts_en-config.md\":\"b15dfa93\",\"projects.md\":\"4607d04e\"}")</script>
+    <script type="module" async src="/assets/app.72147d28.js"></script>
+    
+  </body>
+</html>
