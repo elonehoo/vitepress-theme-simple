@@ -19,7 +19,7 @@
   "devDependencies": {
     "@iconify/json": "^2.2.44",
     "@tailwindcss/typography": "^0.5.9",
-    "@vueuse/core": "^8.9.4",
+    "@vueuse/core": "^10.1.2",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
     "vitepress": "^0.22.4"
